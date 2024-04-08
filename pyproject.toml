@@ -1,0 +1,21 @@
+[tool.poetry]
+package-mode = false
+name = "famachapp-my"
+version = "0.1.0"
+description = "Famachapp apenas com Python"
+authors = ["Mauricio Benjamin <mauriciobenjamin700@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+pytest-cov = "^5.0.0"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

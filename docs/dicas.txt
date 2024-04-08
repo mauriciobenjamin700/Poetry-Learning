@@ -1,0 +1,7 @@
+Estudar:
+    Poetry
+    pipx
+    gh
+    ignr.py
+    pytest
+    
