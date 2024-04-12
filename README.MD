@@ -13,13 +13,7 @@ sudo apt install pipx
 pipx ensurepath
 sudo pipx ensurepath --global # optional to allow pipx actions in global scope. See "Global installation" section below.
 ```
-Caso esteja usando windows, você pode instalar com pip ou com Scoop.
-
-Instalando com Scoop (caso não tenha scoop, [clique aqui](https://scoop.sh/))
-```bash
-scoop install pipx
-pipx ensurepath
-```
+Caso esteja usando windows, você pode instalar com pip
 
 Instalando com pip
 ```bash
